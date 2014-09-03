@@ -1,0 +1,587 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>reveal.js - The HTML Presentation Framework</title>
+
+    <meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+    <meta name="author" content="Hakim El Hattab">
+
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"/>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <link rel="stylesheet" href="css/reveal.css">
+    <link rel="stylesheet" href="css/theme/serif.css" id="theme">
+
+    <!-- For syntax highlighting -->
+    <link rel="stylesheet" href="lib/css/zenburn.css">
+
+    <!-- If the query includes 'print-pdf', use the PDF print sheet -->
+    <script>
+        document.write('<link rel="stylesheet" href="css/print/' + ( window.location.search.match(/print-pdf/gi) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">');
+    </script>
+
+    <!--[if lt IE 9]>
+    <script src="lib/js/html5shiv.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+<div class="reveal">
+
+    <div style="right: 48%; position: absolute; bottom: 50px;">
+        <span style="font-size: 35%;">Sponsored by</span>
+        <img src="img/hortis.png" style="vertical-align: middle;">
+        <span style="font-size: 75%;">Hortis</span>
+    </div>
+
+<!-- Any section element inside of this container is displayed as a slide -->
+    <div class="slides">
+        <section style="display: block;" data-previous-indexv="0">
+            <section>
+                <div class="jongo_typography">
+                    <h1><img src="img/jongo_big.png">Jongo</h1>
+
+                    <p>Getting started with MongoDB & Java</p>
+                </div>
+            </section>
+
+            <section>
+                <div style="width:90%;display:table">
+                    <div>
+                        <div style="display: table-row">
+                            <div style="width:225px;height:225px;display:table-cell">
+                                <img src="img/ivan_hristov.jpg" style="border-color:white">
+                                <h4>Ivan Hristov</h4>
+                            </div>
+                            <div style="display: table-cell; vertical-align: middle">
+                                <div class="bio">
+                                    <img src="img/hortis.png" class="small_icon_like_img">
+                                    <span class="next_to_a_small_icon">Tech Lead @ Hortis</span>
+                                </div>
+                                <div class="bio">
+                                    <img src="img/geneva_mug.png" class="small_icon_like_img">
+                                    <span class="next_to_a_small_icon">Geneva MongoDB User Group {@genevamug, http://genevamug.ch}</span>
+                                </div>
+                                <!--<div class="bio" style="font-size: 0.9em;"></div>-->
+                                <div class="bio">
+                                    <img src="img/twitter.png" class="small_icon_like_img">
+                                    <span class="next_to_a_small_icon">@iv_hristov</span>
+                                </div>
+                                <div class="bio">
+                                    <img src="img/octocat.png" class="small_icon_like_img">
+                                    <span class="next_to_a_small_icon">Blog: http://ingini.org</span>
+                                </div>
+
+                                <!--<div class="bio">Committer: Jongo, FEST-Reflect</div>-->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+
+        <section>
+            <div style="margin-bottom: 20px;">
+                <img src="img/hortis_logo_0.png" class="borderless_image" >
+            </div>
+            <div style="font-size: 100%;">
+                <span>Your Swiss Digital Partner</span>
+            </div>
+ 
+            <div style="margin-top: 50px">            
+                <div style="margin-top: 50px; margin-left:200px">
+                    <div class="bio">
+                        <img src="img/mongodb_logo.png" class="borderless_image" >
+                        <span class="next_to_a_small_icon" style="position: absolute; margin-top: 35px;">Advanced Partner </span>
+                    </div>
+                    <div class="bio">
+                        <img src="img/powered_by_mongoDB_5.png" class="borderless_image">
+                        <span class="next_to_a_small_icon" style="position: absolute; margin-top: 15px;">6 projects</span>
+                    </div>                
+                    <div class="bio">
+                        <img src="img/geneva_mug.png" class="small_icon_like_img">
+                        <span class="next_to_a_small_icon">Geneva MongoDB User Group Sponsor</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div style="font-size: 100%;">
+                <span>Who uses MongoDB?</span>
+            </div>
+ 
+            <div style="margin-top: 50px">            
+                <div style="margin-top: 50px;">
+                    <div class="bio">
+                        <img src="img/rts.gif" class="borderless_image" style="width: 331px; height: 69px"> 
+                        <img src="img/hug.gif" class="borderless_image" style="width: 331px; height: 69px; margin-left: 200px;">
+                    </div>
+                    <div class="bio" style="margin-left:280px">
+                        <img src="img/chopard.png" class="borderless_image" style="width: 331px; height: 69px">
+                    </div>
+                    <div class="bio">
+                        <img src="img/lodh.svg" class="borderless_image" style="width: 331px; height: 69px">
+                        <img src="img/e-merging.png" class="borderless_image" style="width: 331px; height: 69px; margin-left: 200px;">
+                    </div>
+                    <div class="bio">
+                        <img src="img/disney.png" class="borderless_image" style="width: 331px; height: 69px">
+                        <img src="img/unirisc.png" class="borderless_image" style="width: 331px; height: 69px; margin-left: 200px;">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div style="margin-bottom: 20px;">
+                <span>Resources</span>
+            </div>
+            <div style="margin-top: 50px">
+                <div style="float: left; margin-top: 65px;">
+                    <span>https://github.com/ihr/</span>
+                </div>
+                <ul style="margin-top: 25px;">
+                    <li>jongo-by-example</li>
+                    <li>morphia-by-example</li>
+                    <li>spring-data-by-example</li>
+                </ul>
+            </div>
+        </section>
+
+        <section>
+            <div style="margin-bottom: 25px;">
+                <img src="img/road_map.png" class="borderless_image vertically_middle_aligned">
+                <span>Roadmap</span>
+            </div>
+            <div>
+                <span>Query MongoDB from Java as if using MongoDB shell</span>
+                <ul style="margin-top: 25px;">
+                    <li style="margin-top: 15px;">CRUD</li>
+                    <li style="margin-top: 15px;">Full Text Search</li>
+                    <li style="margin-top: 15px;">Aggregation Framework</li>
+                    <li style="margin-top: 15px;">Geospatial queries</li>
+                    <!--li style="margin-top: 15px;">Jongo vs. Morphia vs. Spring Data</li-->
+                </ul>
+            </div>
+        </section>
+
+        <section>
+            <div>
+            <img src="img/mongodb_leaf_logo.png" class="borderless_image vertically_middle_aligned">
+            <span>MongoDB ... and the documents</span>
+            </div>
+            <div>
+                <div id="thebigimage"> </div>
+                <div id="overlap_one"></div>
+                <div id="overlap_two"></div>
+                database
+                <img src="img/documents.png" class="borderless_image vertically_middle_aligned" style="width: 92px; height: 95px">
+                collection
+                <img src="img/document.png" class="borderless_image vertically_middle_aligned" style="width: 92px; height: 95px">
+                document
+            </div>
+            <div>
+            <pre style="box-shadow: none">
+<!--<span style="color: greenyellow; background-color: black">db.contributors.findOne({_id: ObjectId("524048b68faa3a7de509a5bb")});</span>-->
+                <code class="json">
+{
+  "_id": ObjectId("524048b68faa3a7de509a5bb"),
+  "name" : "Ivan",
+  "twitter": "@iv_hristov",
+  "projects": [
+    {"name": "FEST-Reflect", "description": "Easy Java reflection"},
+    {"name": "Jongo", "site" : "http://jongo.org/",
+      "creators": [
+        {"name": "Benoit Guérout", "twitter": "@bguerout"},
+        {"name": "Yves Amsellem", "twitter": "@amsellemyves"}
+      ]}
+  ]
+}
+                </code>
+            </pre>
+            </div>
+        </section>
+
+        <section>
+            <div style="margin-bottom: 20px;">
+                <span>Bird's-eye view</span>
+            </div>
+            <div>
+                <h1 style="font-size: 50px;margin-top: 50px;font-weight: normal;max-width: 15%;float: left;margin-left: 10px;" >                    
+                <img src="img/business_logic.png" class="borderless_image" style="">
+                    <span  style="display: block; font-size: 50%;">Java objects</span>
+                </h1>
+        
+                <img src="img/input_output_arrow.png" class="borderless_image"  style="max-width: 10%;float: left;margin-top: 100px;margin-right: 20px;">  
+
+                <img src="img/jongo_big.png" class="borderless_image" style="max-width: 25%;float: left;margin-top: 120px;">
+                <h1 style="float: left;font-size: 50px;margin-top: 130px;font-family: 'Adonais Regular';font-weight: normal;" >Jongo
+                    <span style="display: block; font-family: none;font-size: 50%;margin-top: 50px;">Jackson</span>
+                    <span  style="display: block; font-family: none;font-size: 50%;">MongoDB Driver</span>
+                </h1>                
+                
+                <img src="img/input_output_arrow.png" class="borderless_image"  style="max-width: 10%;float: left;margin-top: 100px;"> 
+
+
+                <h1 style="font-size: 50px;font-weight: normal;" >
+                    <img src="img/mongodb_huge_logo.png" class="borderless_image" style="max-width: 35%;float: left;margin-top: 90px;margin-bottom: 20px">
+                    <span  style="display: block; font-size: 50%;margin-left: 600px;">Documents (BSON objects)</span>
+                </h1>
+         </div>
+          
+        </section>
+        
+        <section>
+            <div>
+                <span>Create</span>
+            </div>
+            <div style="padding-top: 25px; margin-bottom: 50px">
+                <span style="float: left">MongoDB Shell</span>
+            </div>
+            <div>
+            <pre style="box-shadow: none">
+                <code class="json">
+db.characters.insert({first_name: 'Eddard', second_name: 'Stark'});
+                </code>
+            </pre>
+            </div>
+            <div style="padding-top: 25px; margin-bottom: 50px">
+                <span style="float: left">Jongo</span>
+            </div>
+            <div>
+            <pre style="box-shadow: none">
+                <code class="json">
+characters.insert("{first_name: 'Eddard', second_name: 'Stark'}");
+                </code>
+            </pre>
+            </div>
+
+        </section>
+
+        <section>
+            <div>
+                <span>Read</span>
+            </div>
+            <div style="padding-top: 25px; margin-bottom: 50px">
+                <span style="float: left">MongoDB Shell</span>
+            </div>
+            <div>
+            <pre style="box-shadow: none">
+                <code class="json">
+db.characters.findOne({_id : ObjectId("525ae7e130049e2a5c27ee39")});
+                </code>
+            </pre>
+            </div>
+            <div style="padding-top: 25px; margin-bottom: 50px">
+                <span style="float: left">Jongo</span>
+            </div>
+            <div>
+            <pre style="box-shadow: none">
+                <code class="json">
+characters.findOne(new ObjectId("525ae7e130049e2a5c27ee39")).as(...);
+                </code>
+            </pre>
+            </div>
+
+        </section>
+
+        <section>
+            <div>
+                <span>Read</span>
+            </div>
+            <div style="padding-top: 25px; margin-bottom: 50px">
+                <span style="float: left">MongoDB Shell</span>
+            </div>
+            <div>
+            <pre style="box-shadow: none">
+                <code class="json">
+db.characters.findOne({gender: 'FEMALE', first_name: 'Arya'});
+                </code>
+            </pre>
+            </div>
+            <div style="padding-top: 25px; margin-bottom: 50px">
+                <span style="float: left">Jongo</span>
+            </div>
+            <div>
+            <pre style="box-shadow: none">
+                <code class="json">
+characters.findOne("{gender: #, first_name : #}", FEMALE, "Arya").as(...)
+                </code>
+            </pre>
+            </div>
+
+        </section>
+
+        <section>
+            <div>
+                <span>Update</span>
+            </div>
+            <div style="padding-top: 25px; margin-bottom: 50px">
+                <span style="float: left">MongoDB Shell</span>
+            </div>
+            <div>
+            <pre style="box-shadow: none">
+                <code class="json">
+db.weapons.update({_id: 'Lightbringer'}, {$set : {details: '...'}});
+                </code>
+            </pre>
+            </div>
+            <div style="padding-top: 25px; margin-bottom: 50px">
+                <span style="float: left">Jongo</span>
+            </div>
+            <div>
+            <pre style="box-shadow: none">
+                <code class="json">
+weapons.update("{_id: 'Lightbringer').with("{$set: {details: '...'}}");
+                </code>
+            </pre>
+            </div>
+
+        </section>
+
+        <section>
+            <div>
+                <span>Delete</span>
+            </div>
+            <div style="padding-top: 25px; margin-bottom: 50px">
+                <span style="float: left">MongoDB Shell</span>
+            </div>
+            <div>
+            <pre style="box-shadow: none">
+                <code class="json">
+db.weapons.remove({_id: 'Lightbringer'});
+                </code>
+            </pre>
+            </div>
+            <div style="padding-top: 25px; margin-bottom: 50px">
+                <span style="float: left">Jongo</span>
+            </div>
+            <div>
+            <pre style="box-shadow: none">
+                <code class="json">
+weapons.remove("{_id: 'Lightbringer'}");
+                </code>
+            </pre>
+            </div>
+
+        </section>
+
+        <section>
+            <div style="margin-bottom: 50px;">
+                <span>Full Text Search</span>
+            </div>
+        </section>
+        
+        <section>
+            <div>
+            <div style="margin-bottom: 10px;">
+                <span >The quick brown fox jumps over the lazy dog. </span>
+            </div>
+            <div style="margin-bottom: 10px;">
+                <img src="img/arrow_down.png" class="borderless_image" style="width: 5%">
+            </div>
+            <div style="text-align: center;margin-bottom: 10px;">
+                <span style="border-color:rgb(232, 30, 148);border-width: 3px;padding-right: 10px;padding-left: 10px;border-style:dotted">Tokenizer</span>
+            </div> 
+            <div style="margin-bottom: 10px;">
+                <img src="img/arrow_down.png" class="borderless_image" style="width: 5%">
+            </div>
+            <div style="margin-bottom: 10px;">
+                <span>the, quick, brown, fox, jumps, over, the, lazy, dog</span>
+            </div>
+            <div style="margin-bottom: 10px;">
+                <img src="img/arrow_down.png" class="borderless_image" style="width: 5%">
+            </div>
+
+            <div style="text-align: center;margin-bottom: 10px;">
+                <span style="border-color:rgb(232, 30, 148);border-width: 3px;padding-right: 10px;padding-left: 10px;border-style:dotted">Stemmer (Snowball)</span>
+            </div>
+            <div style="margin-bottom: 10px;">
+                <img src="img/arrow_down.png" class="borderless_image" style="width: 5%">
+            </div>
+            <span >quick, brown, fox, jump, lazi, dog</span>       
+        </div>
+        </section>
+
+        <section>
+            <div style="margin-bottom: 50px;">
+                <span>Aggregation Pipeline</span>
+            </div>
+        </section>
+
+        <section>
+            <div style="margin-bottom: 50px;">
+                <span>Geospatial functionality</span>
+            </div>
+        </section>        
+
+        <section>
+            <h2>Q & A </h2>
+
+            <div>
+                <br>
+            </div>
+            <hr style="width: 80%">
+            <div style="width:90%;display:table">
+                <div style="display: table-row">
+                    <div style="width:225px;height:225px;display:table-cell;padding-left: 135px;">
+                        <img src="img/jongo_big.png" style="border-color:white">
+
+                        <div style="font-size:22px">http://jongo.org/</div>
+                        <div style="font-size:22px;text-align: left;margin-left: 40px;">@bguerout</div>
+                        <div style="font-size:22px;text-align: left;margin-left: 40px;">@amsellemyves</div>
+                    </div>
+                    <div style="display: table-cell; vertical-align: middle">
+                        <div class="bio">
+                            <img src="img/gmail.png" class="small_icon_like_img">
+                            <span class="next_to_a_small_icon">hristov.iv@gmail.com</span>
+                        </div>
+                        <!--<div class="bio" style="font-size: 0.9em;"></div>-->
+                        <div class="bio">
+                            <img src="img/twitter.png" class="small_icon_like_img">
+                            <span class="next_to_a_small_icon">@iv_hristov</span>
+                        </div>
+                        <div class="bio">
+                            <img src="img/octocat.png" class="small_icon_like_img">
+                            <span class="next_to_a_small_icon">http://ingini.org/</span>
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+<section>
+            <div>
+                <span>Jongo vs. Morphia vs. Spring</span>
+            </div>
+
+            <div style="padding-top: 25px; margin-bottom: 30px">
+                <span style="float: left">Jongo</span>
+            </div>
+            <div>
+            <pre style="box-shadow: none">
+                <code class="json">
+characters.findOne("{gender : #, first_name: #}", FEMALE, "Arya")
+.as(Heroine.class);
+                </code>
+            </pre>
+            </div>
+
+            <div style="padding-top: 15px; margin-bottom: 30px">
+                <span style="float: left">Morphia</span>
+            </div>
+            <div>
+            <pre style="box-shadow: none">
+                <code class="json">
+ds.find(Heroine.class, "gender", Gender.FEMALE).field("first_name")
+.equal("Arya");
+                </code>
+            </pre>
+            </div>
+
+            <div style="padding-top: 15px; margin-bottom: 30px">
+                <span style="float: left">Spring data</span>
+            </div>
+            <div>
+            <pre style="box-shadow: none">
+                <code class="json">
+mongoTemplate.findOne(Query.query(Criteria.where("gender").is(Gender.FEMALE)
+.and("first_name").is("Arya")), Heroine.class);
+                </code>
+            </pre>
+            </div>
+
+        </section>
+
+        <section>
+            <div>
+                <span>Jongo vs. Morphia vs. Spring</span>
+            </div>
+
+            <div style="padding-top: 25px; margin-bottom: 30px">
+                <span style="float: left">Jongo</span>
+            </div>
+            <div>
+            <pre style="box-shadow: none">
+                <code class="json">
+weapons.update("{_id:'Lightbringer'}").with("{$set: {details: #}}",details);
+                </code>
+            </pre>
+            </div>
+
+            <div style="padding-top: 15px; margin-bottom: 30px">
+                <span style="float: left">Morphia</span>
+            </div>
+            <div>
+            <pre style="box-shadow: none">
+                <code class="json">
+ds.update(ds.createQuery(Weapon.class).field("id").equal("Lightbringer"),
+ds.createUpdateOperations(Weapon.class).set("details", details));
+                </code>
+            </pre>
+            </div>
+
+            <div style="padding-top: 15px; margin-bottom: 30px">
+                <span style="float: left">Spring data</span>
+            </div>
+            <div>
+            <pre style="box-shadow: none">
+                <code class="json">
+mongoTemplate.findAndModify(Query.query(Criteria.where("_id").is("Lightbringer")),
+new Update().set("details", details), Weapon.class);
+                </code>
+            </pre>
+            </div>
+
+        </section>
+    </div>
+
+    <script src="lib/js/head.min.js"></script>
+    <script src="js/reveal.min.js"></script>
+    <script>
+
+        // Full list of configuration options available here:
+        // https://github.com/hakimel/reveal.js#configuration
+        Reveal.initialize({
+            controls: true,
+            progress: true,
+            history: true,
+            center: true,
+
+            theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+            transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+            // Optional libraries used to extend on reveal.js
+            dependencies: [
+                { src: 'lib/js/classList.js', condition: function () {
+                    return !document.body.classList;
+                } },
+                { src: 'plugin/markdown/showdown.js', condition: function () {
+                    return !!document.querySelector('[data-markdown]');
+                } },
+                { src: 'plugin/markdown/markdown.js', condition: function () {
+                    return !!document.querySelector('[data-markdown]');
+                } },
+                { src: 'plugin/highlight/highlight.js', async: true, callback: function () {
+                    hljs.initHighlightingOnLoad();
+                } },
+                { src: 'plugin/zoom-js/zoom.js', async: true, condition: function () {
+                    return !!document.body.classList;
+                } },
+                { src: 'plugin/notes/notes.js', async: true, condition: function () {
+                    return !!document.body.classList;
+                } }
+                // { src: 'plugin/search/search.js', async: true, condition: function() { return !!document.body.classList; } }
+                // { src: 'plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } }
+            ]
+        });
+
+    </script>
+
+</body>
+</html>
